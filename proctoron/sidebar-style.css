@@ -1,0 +1,56 @@
+.sidebar {
+    background-color: #f4f4f4;
+    width: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px ;
+    margin-top: 10px ;
+}
+
+.logout-button {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.logout-button button {
+    background-color: #4b0082;
+    color: white; /* White text */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.logout-button button:hover {
+    background-color: #4b0082; /* Darker red on hover */
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    flex-direction: column; /* Stack image and text vertically */
+    text-align: center; /* Center align text */     
+}
+
+.user-icon {
+    width: 50px;
+    /* margin-bottom: 10px;
+    /* font-size: 24px; */
+}
+
+.user-text {
+    margin: 0;
+    color: #3c2a8b;
+    /* margin-bottom: 10px; */
+}

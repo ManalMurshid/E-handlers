@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Papers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">ProctorOn</div>
+        <a href="examiner_dashboard.php" class="home-link">Home</a>
+        <div class="user-info">
+            <div class="user-icon">👤</div>
+            <div class="user-text">Hi, User</div>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Exam Papers</h1>
+            <button class="new-paper-btn" onclick="window.location.href='create_paper/create_exam.php'">+ New Paper</button>
+        </header>
+        <div class="papers-container">
+            <div class="papers-grid" id="papers-grid">
+                <!-- Exam papers will be populated here by JavaScript -->
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

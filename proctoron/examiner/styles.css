@@ -1,0 +1,155 @@
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #3c2a8b;
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar .logo {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sidebar .home-link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sidebar .user-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .user-icon {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: #3c2a8b;
+}
+
+header .new-paper-btn {
+    padding: 10px 20px;
+    background-color: #3c2a8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .new-paper-btn:hover {
+    background-color: #2a1e6b;
+}
+
+.papers-container {
+    display: flex;
+    justify-content: center;
+}
+
+.papers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.paper-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.paper-card h2 {
+    font-size: 1.2em;
+    color: #3c2a8b;
+    margin-bottom: 10px;
+}
+
+.paper-card p {
+    margin: 5px 0;
+}
+
+.paper-card .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.paper-card button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3c2a8b;
+    color: #fff;
+}
+
+.paper-card button:hover {
+    background-color: #2a1e6b;
+}
+
+.exam-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.exam-form label {
+    margin-bottom: 5px;
+}
+
+.exam-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.exam-form button {
+    padding: 10px 20px;
+    background-color: #3c2a8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exam-form button:hover {
+    background-color: #2a1e6b;
+}
